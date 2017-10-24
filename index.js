@@ -19,7 +19,9 @@ const schema = {
 }
 
 app.get('/',schema,function(req,res){
-  res.send({ hello: 'world' })
+  res.code(404)
+     .header('content-type/json')
+     .send({msg:'找不到資料'})
 })
 
 app.ready(() => {
