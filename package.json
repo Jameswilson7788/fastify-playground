@@ -1,0 +1,11 @@
+{
+  "name": "fastify-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Jameswilson7788/fastify-playground.git",
+  "author": "JamesWilson <wesstation2@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^0.30.2"
+  }
+}
