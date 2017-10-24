@@ -1,4 +1,6 @@
-const app = require('fastify')()
+const app = require('fastify')({
+  logger:true
+})
 
 const schema = {
   response: {
