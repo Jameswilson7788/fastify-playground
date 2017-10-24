@@ -1,5 +1,8 @@
+let i = 0
 const app = require('fastify')({
-  logger:true
+  getReqId: function(req){
+    return i++
+  }
 })
 
 const schema = {
